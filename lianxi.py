@@ -1,17 +1,20 @@
 # @author : 'CBC'
 # @Time   : 2019-11-08
 # @File   : lianxi.py
-
+import sys
 
 from past.builtins import raw_input
 
 count = 5
 
 
-def my_fun():
-    global count
-    count = 10
-    print(count)
+def my_fun(parameter):
+    if parameter.__len__() == 1:
+        parameter = 'World'
+        # print('World', end='')
+        return parameter
+    else:
+        return parameter[1]
 
 
 def fun1():
@@ -28,9 +31,10 @@ def fun1():
 if __name__ == '__main__':
     # while True:
 
-            print('输入内容：')
-            s = raw_input()
+        # print('输入内容：')
+        # s = raw_input()
 
-            # a, b = s.split(" ")
-            # print(int(a) + int(b))
-            print(s + '，你好！')
+        # a, b = s.split(" ")
+        # print(int(a) + int(b))
+    s = my_fun(sys.argv)
+    print(s + '，你好！')
