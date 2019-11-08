@@ -3,7 +3,6 @@
 # @File   : lianxi.py
 import sys
 
-from past.builtins import raw_input
 
 count = 5
 
