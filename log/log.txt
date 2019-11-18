@@ -1,0 +1,6 @@
+[2019-11-18 15:41:51] INFO [<module>: run_all.py, 10] ================================== 测试开始 ==================================
+[2019-11-18 15:41:51] DEBUG [_new_conn: connectionpool.py, 225] Starting new HTTP connection (1): 115.28.108.130:5000
+[2019-11-18 15:41:51] DEBUG [_make_request: connectionpool.py, 437] http://115.28.108.130:5000 "POST /api/user/login/ HTTP/1.1" 200 21
+[2019-11-18 15:41:51] DEBUG [_new_conn: connectionpool.py, 225] Starting new HTTP connection (1): 115.28.108.130:5000
+[2019-11-18 15:41:52] DEBUG [_make_request: connectionpool.py, 437] http://115.28.108.130:5000 "POST /api/user/login/ HTTP/1.1" 200 42
+[2019-11-18 15:41:52] INFO [<module>: run_all.py, 19] ================================== 测试结束 ==================================
