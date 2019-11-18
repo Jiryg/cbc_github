@@ -10,8 +10,9 @@ test_path = os.path.join(prj_path, 'test')   # 用例目录
 
 log_file = os.path.join(prj_path, 'log', 'log.txt')  # 更改路径到log目录下
 
-now = time.strftime('%Y-%m-%d-%H-%M', time.localtime(time.time()))
-report_name = now + '.html'
+# now = time.strftime('%Y-%m-%d-%H-%M', time.localtime(time.time()))
+# report_name = now + '.html'
+report_name = 'index.html'
 report_file = os.path.join(prj_path, 'report', report_name)  # 更改路径到report目录下
 
 # log配置
