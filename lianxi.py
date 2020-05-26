@@ -4,7 +4,7 @@
 import sys
 
 
-count = 8
+count = 6
 
 
 def my_fun(parameter):
